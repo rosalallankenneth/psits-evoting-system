@@ -1,0 +1,19 @@
+.form-area div {
+    margin-left: -10px;
+}
+input[type='submit'] {
+    margin-right: 185px;
+}
+#register-label {
+    text-align: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+#register-label a {
+    margin: 0 30px;
+    color: #b31515;
+    font-weight: 700;
+}
+.instruct-area {
+    width: 780px;
+}

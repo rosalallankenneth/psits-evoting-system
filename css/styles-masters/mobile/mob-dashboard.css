@@ -1,0 +1,70 @@
+
+@media only screen and (min-width: 665px) {
+    .content {
+        padding: 40px;
+    }
+    .pollbox {
+        margin: 30px 0;
+        border: 1px rgb(165, 163, 163) solid;
+    }
+    .content h1 {
+        font-size: 50px;
+    }
+    .content h1 small {
+        font-size: 25px;
+    }
+    .pollbox-header {
+        padding: 10px 10px 1px 10px;
+        background: rgb(240, 238, 238) !important;
+        color: rgb(179, 24, 24);
+    }
+    .poll-title {
+        font-weight: 700;
+    }
+    .poll-desc {
+        color: #000;
+        font-size: 16px;
+    }
+    .pollbox-body {
+        padding: 0 10px 10px 10px;
+    } 
+    .pollbox-header {
+        background: rgb(212, 211, 211);
+    }
+    .numvoted {
+        background: #ffd200;
+        border-radius: 10px;
+        width: 200px;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .poll-id {
+        display: none;
+    }
+    .bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .bottom .btn {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    .poll-dates {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .poll-btns {
+        margin-right: 0;
+    }
+    #no-polls {
+        text-align: center;
+        margin-top: 30px;
+        padding: 5px;
+        background: #ffd200;
+        border-radius: 5px;
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,22 @@
+
+@media only screen and (min-width: 870px) {
+    .pic-area {
+        margin-left: 10px;
+        margin-top: 16px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .content {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        width: 800px !important;
+        text-align: center !important;
+        padding: 40px 0 !important;
+    }
+    .instruct-area {
+        margin-top: 0 !important;
+        padding-left: 100px !important;
+        width: 800px !important;
+    }
+}

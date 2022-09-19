@@ -1,0 +1,107 @@
+@media only screen and (min-width: 512px) {
+    .content {
+        padding: 40px;
+    }
+    .title {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .title h4 {
+        margin-left: 0;
+        font-size: 24px;
+    }
+    #backtodash {
+        margin-right: 0;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .cat-container {
+        margin-top: 70px;
+    }
+    .cat-header {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .catname {
+        text-align: left;
+        margin-left: 0;
+    }
+    .catname small {
+        color: #b31515;
+        font-size: 15px;
+    }
+    .div-counter {
+        margin-right: 20px;
+        text-align: right;
+        display: inline-block;
+    }
+    .item-container {
+        margin: 0 20px;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 150px auto;
+    }
+    .item-container i {
+        font-size: 150px;
+        color: #b31515;
+    }
+    .item-contents {
+        margin-left: 0;
+        width: 100%;
+    }
+    .item-contents h5 {
+        padding: 5px 0;
+        padding-left: 20px;
+        background: #b31515;
+        color: #fff;
+        margin: 0;
+        font-size: 15px;
+    }
+    .item-contents p {
+        padding: 10px;
+        padding-left: 15px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .div-btn {
+        display: grid;
+        grid-template-columns: auto 100px;
+        border: 1px #b31515 solid;
+        margin-left: 5px;
+    }
+    .div-btn p {
+        width: 100%;
+        overflow: hidden;
+        height: 45px;
+        font-size: 15px;
+    }
+    .div-btn span {
+        font-size: 25px;
+    }
+    .desc-hide {
+        display: inline-block;
+    }
+    .btn-vote {
+        margin-top: 15px;
+        margin-right: 10px;
+        margin-bottom: 0;
+        height: 30px;
+        padding: 0;
+        display: inline-block;
+        justify-self: end;
+    }
+    .tab {
+        overflow: auto;
+    }
+    .bottom {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .bottom input {
+        transition: .5s ease-in-out;
+    }
+    .bottom input:hover {
+        letter-spacing: 2px;
+    }
+
+}

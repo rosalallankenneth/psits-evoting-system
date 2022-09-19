@@ -1,0 +1,25 @@
+.form-master-login {
+    width: 500px;
+    border: 1px rgb(219, 216, 216) solid;
+    background: rgb(247, 245, 245);
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+}
+.form-master-login h5 {
+    margin: 40px 0;
+}
+.form-master-login input {
+    width: 300px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.form-master-login input[type='text'] {
+    margin-top: 0;
+}
+.form-master-login input[type='submit'] {
+    margin: 30px 0;
+    font-size: 15px;
+    width: 100px;
+    cursor: pointer;
+}

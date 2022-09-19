@@ -1,0 +1,223 @@
+.content {
+    padding: 20px;
+}
+h2 {
+    font-size: 26px;
+    margin-left: 0;
+}
+h2 small {
+    display: none;
+}
+hr {
+    margin-top: 0 !important;
+}
+h2 small {
+    font-size: 16px;
+    color: #b31515;
+}
+.results {
+    text-align: center;
+    padding: 20px;
+}
+.title {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.total {
+    margin-right: 0;
+    font-weight: 400;
+    display: none;
+}
+.topbar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#f5 {
+    width: 100px;
+    padding: 5px 0;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px rgb(94, 194, 36) solid;
+    background: rgb(94, 194, 36);
+    color: #fff;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    justify-self: center;
+    margin: 15px;
+}
+#f5:hover {
+    background: rgb(74, 156, 26);
+}
+.search-field {
+    margin-left: 0;
+}
+#search-item {
+    font-size: 15px;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search-item {
+    width: 200px;
+}
+.search-field form {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.search-field form button {
+    padding: 6px 10px;
+    cursor: pointer;
+    border: 2px rgb(33, 75, 216) solid;
+    background: rgb(33, 75, 216);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: .2s ease-in-out;
+}
+.search-field form button:hover {
+    background: rgb(27, 60, 170);
+}
+#gototop {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, .53);
+    color: #b31515;
+    border: 3px #b31515 solid;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+    opacity: .5;
+}
+#gototop:hover {
+    padding: 10px 20px;
+    opacity: 1;
+}
+#addbtn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px 10px;
+    background: rgba(255, 255, 255, .53);
+    color: #b31515;
+    border: 3px #b31515 solid;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: .5s ease-in-out;
+}
+#addbtn:hover {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 1);
+}
+
+
+
+.tab {
+    overflow: scroll;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+table th {
+    font-size: 13px;
+}
+table tr td, table tr th {
+    padding: 5px;
+    text-align: left;
+}
+tr:nth-child(odd) {
+    background: rgb(235, 235, 235);
+}
+.table-btn {
+    font-size: 12px;
+    margin: 5px;
+    margin-right: 0 !important;
+    padding: 5px;
+}
+.table-btn:hover {
+    color: #fff !important;
+}
+
+
+
+
+#panel {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    height: 100%;
+    transition: .5s ease-in-out;
+    background: rgba(0, 0, 0, 0.95);
+    color: #fff;
+}
+.slider {
+    transform: translateX(-350px);
+}
+#exitbtn {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+#exitbtn:hover {
+    color: #ffd200;
+}
+.panel-title {
+    text-align: center;
+    margin: 5%;
+}
+
+#panel form {
+    width: 100%;
+    text-align: center;
+}
+#panel form input[type='number'], 
+#panel form input[type='text'] {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 300px;
+    background: #000;
+    border: 1px #fff solid;
+    color: #fff;
+}
+#panel form label {
+    font-size: 15px;
+    margin-right: 5px;
+}
+#panel form select {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 25%;
+    background: #000;
+    border: 1px #fff solid;
+    color: #fff;
+}
+#panel form label[name='lbl-year'] {
+    margin-left: 20px;
+}
+#panel form input[type='submit'] {
+    width: 300px;
+    cursor: pointer;
+    margin-top: 5%;
+    padding: 10px 0;
+    font-weight: 700;
+}
+#panel-reset {
+    text-align: left !important;
+    width: 100%;
+}
+#panel-reset input {
+    padding: 5px !important;
+    margin-left: 25px;
+    width: 60px !important;
+}
+

@@ -1,0 +1,105 @@
+.content {
+    padding: 20px;
+}
+.title {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.title h4 {
+    margin-left: 0;
+    font-size: 18px;
+}
+#backtodash {
+    margin-right: 0;
+    display: none;
+}
+.cat-container {
+    margin-top: 70px;
+}
+.cat-header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.catname {
+    text-align: left;
+    margin-left: 0;
+    font-size: 20px;
+}
+.catname small {
+    color: #b31515;
+    font-size: 10px;
+}
+.div-counter {
+    margin-right: 20px;
+    text-align: right;
+    display: none;
+}
+.item-container {
+    margin: 0 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+.item-container i {
+    font-size: 100px;
+    color: #b31515;
+}
+.item-contents {
+    margin-left: 0;
+    width: 100%;
+}
+.item-contents h5 {
+    padding: 5px 0;
+    padding-left: 20px;
+    background: #b31515;
+    color: #fff;
+    margin: 0;
+    font-size: 15px;
+}
+.item-contents p {
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 0;
+    text-align: left;
+}
+.div-btn {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px #b31515 solid;
+    margin-left: 5px;
+}
+.div-btn p {
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    font-size: 10px;
+}
+.div-btn span {
+    font-size: 20px;
+}
+.desc-hide {
+    display: none;
+}
+.btn-vote {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    padding: 0;
+    display: inline-block;
+    width: 70px;
+    justify-self: end;
+}
+.bottom {
+    margin-top: 50px;
+    text-align: center;
+}
+.bottom input {
+    transition: .5s ease-in-out;
+}
+.bottom input:hover {
+    letter-spacing: 2px;
+}
+.tab {
+    overflow: scroll;
+}

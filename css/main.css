@@ -1,0 +1,156 @@
+*, html {
+    padding: 0;
+    margin: auto;
+    font-family: Tahoma;
+}
+body {
+    width: 100%;
+    display: inline-block;
+    scroll-behavior: smooth;
+}
+.header {
+    background: #b31515;
+    padding: 20px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 60px auto;
+}
+.sidebarxbtn {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px !important;
+    cursor: pointer;
+    display: inline-block;
+}
+.sidebarxbtn:hover {
+    color: #ffd200;
+}
+.fa-bars {
+    display: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.main {
+    width: 100%;
+}
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.content h1 small {
+    font-size: 25px;
+    font-weight: 500;
+}
+.user-side {
+    font-size: 15px !important;
+}
+.user-side span {
+    color: #ffd200;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    background: #202020;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    transition: .5s ease-in-out;
+    z-index: 1;
+}
+.slide {
+    left: 0;
+}
+.user-side {
+    color: #fff;
+    font-size: 12px !important;
+    padding: 10px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin: 20px 40px;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none;
+}
+.sidebar ul li {
+    color: #fff;
+    font-weight: 700;
+    width: 200px;
+    border-top: #fff 1px solid;
+    text-align: center;
+}
+.sidebar ul li:last-child {
+    border-bottom: #fff 1px solid;
+}
+a {
+    text-decoration: none !important;
+}
+.sidebar ul li a div {
+    color: #fff;
+    padding: 10px !important;
+    padding-left: 5px;
+    margin: 5px 5px !important;
+    letter-spacing: 1px; 
+    transition: .2s ease-in-out;
+    display: grid;
+    grid-template-columns: 30px auto;
+    font-size: 15px;
+}
+.sidebar ul li a div {
+    font-size: 15px;
+}
+.sidebar ul li a div i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+.sidebar ul li div i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+.sidebar ul li a div:hover {
+    color: #202020;
+    background: #ffd200;
+}
+.menu-selected {
+    color: #202020 !important;
+    background: #ffd200 !important;
+}
+.content {
+    padding: 50px;
+}
+.side-footer {
+    width: 200px;
+    color: #ffd200;
+    cursor: pointer;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50px auto;
+    padding: 15px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+}
+.side-footer span {
+    text-align: left !important;
+    padding-left: 20px !important;
+}
+.alert-danger, .alert-success, .alert-warning {
+    margin: 5px !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    text-align: left !important;
+}

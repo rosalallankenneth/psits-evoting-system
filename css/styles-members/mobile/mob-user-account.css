@@ -1,0 +1,97 @@
+@media only screen and (min-width: 652px) {
+    .content {
+        padding: 40px;
+    }
+    .user-side {
+        font-size: 15px;
+    }
+    .user-side span {
+        color: #ffd200;
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .info-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        grid-column-gap: 40px;
+    }
+    .info-box div {
+        padding: 10px;
+        margin: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: 1px #000 solid;
+    }
+    .info-box div div {
+        padding: 0;
+        margin: 0;
+        display: block;
+        border-bottom: none;
+        text-align: right;
+        font-size: 20px;
+    }
+    #btn-mname {
+        margin-right: 20px;
+        color: rgb(33, 75, 216);
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .password-form {
+        margin-top: 40px;
+    }
+    .form-title {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .password-form form {
+        width: 500px;
+    }
+    .password-form form div {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 10px 0;
+        border-bottom: 1px #000 solid;
+        margin-bottom: 10px;
+    }
+    .password-form form div input[type='text'], .password-form form div input[type='password'] {
+        width: 290px;
+        border: none;
+        font-size: 20px;
+        text-align: right;
+    }
+    .password-form form div:nth-child(5) {
+        border-bottom: none;
+        margin-top: 30px;
+    }
+    #change-reset, #change-submit {
+        border-radius: 5px;
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    #change-submit {
+        font-weight: 700;
+        background: rgb(94, 194, 36);
+    }
+    #change-reset {
+        background: rgb(33, 75, 216);
+        margin-left: 20px;
+    }
+    .info-small {
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: rgb(156, 13, 13);
+    }
+    #controls input {
+        width: 100px;
+    }
+
+}

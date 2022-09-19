@@ -1,0 +1,80 @@
+.content {
+    padding: 20px;
+}
+.user-side {
+    font-size: 15px;
+}
+.user-side span {
+    color: #ffd200;
+    font-size: 20px;
+}
+.content h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.content h1 small {
+    font-size: 15px;
+    font-weight: 500;
+}
+#welcome {
+    font-size: 15px;
+    margin-top: 20px;
+}
+#welcome span{
+    font-weight: 700;
+}
+#no-polls {
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    background: #ffd200;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+
+.pollbox {
+    margin: 30px 0;
+    border: 1px rgb(165, 163, 163) solid;
+}
+.pollbox-header {
+    padding: 10px 10px 1px 10px;
+    background: rgb(240, 238, 238) !important;
+    color: rgb(179, 24, 24);
+}
+.poll-title {
+    font-weight: 700;
+}
+.poll-desc {
+    color: #000;
+}
+.pollbox-body {
+    padding: 0 10px 10px 10px;
+} 
+.pollbox-header {
+    background: rgb(212, 211, 211);
+}
+.numvoted {
+    background: #ffd200;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.poll-id {
+    display: none;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.poll-dates {
+    margin-left: 0;
+}
+.poll-btns {
+    margin-right: 0;
+}
